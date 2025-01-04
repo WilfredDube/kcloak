@@ -36,3 +36,4 @@ issues:
         - gocognit
   exclude:
     - should have a package comment
+    - ineffectual assignment

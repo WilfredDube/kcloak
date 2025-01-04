@@ -6611,7 +6611,7 @@ func Test_GetClientsWithPagination(t *testing.T) {
 	defer tearDown()
 	t.Log(createdClientID)
 	first := 0
-	max := 1
+	maximum := 1
 	// Looking for a created client
 	clients, err := client.GetClients(
 		context.Background(),
@@ -6619,11 +6619,11 @@ func Test_GetClientsWithPagination(t *testing.T) {
 		cfg.KCloak.Realm,
 		kcloak.GetClientsParams{
 			First: &first,
-			Max:   &max,
+			Max:   &maximum,
 		},
 	)
 	require.NoError(t, err)
-	require.Equal(t, max, len(clients))
+	require.Equal(t, maximum, len(clients))
 }
 
 func Test_ImportIdentityProviderConfig(t *testing.T) {

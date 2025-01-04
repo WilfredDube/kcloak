@@ -1426,6 +1426,7 @@ type RequiredActionProviderRepresentation struct {
 	ProviderID    *string            `json:"providerId,omitempty"`
 }
 
+// UnregisteredRequiredActionProviderRepresentation is a representation of an unregistered action provider.
 type UnregisteredRequiredActionProviderRepresentation struct {
 	Name       *string `json:"name,omitempty"`
 	ProviderID *string `json:"providerId,omitempty"`
