@@ -1,0 +1,6 @@
+projectKey=kcloak
+serverUrl=http://localhost:9010
+serverVersion=7.6.0.21501
+dashboardUrl=http://localhost:9010/dashboard?id=kcloak
+ceTaskId=AWjX8nGWdqj66mV4Noub
+ceTaskUrl=http://localhost:9010/api/ce/task?id=AWjX8nGWdqj66mV4Noub

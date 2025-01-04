@@ -1,0 +1,16 @@
+{
+  "hostname": "http://localhost:8080",
+  "proxy": "",
+  "admin": {
+    "username": "admin",
+    "password": "secret",
+    "realm": "master"
+  },
+  "kcloak": {
+    "username": "test",
+    "password": "test",
+    "realm": "kcloak",
+    "client_id": "kcloak",
+    "client_secret": "kcloak-secret"
+  }
+}
